@@ -2,6 +2,34 @@
   text-align: center;
 }
 
+.food-img {
+  height: 100px;
+  width: auto;
+}
+/* .food-flex {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+.create-bttn {
+  margin: 5px;
+height: 35px;
+width: 70px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+border: none;
+}
+
+.foodlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
