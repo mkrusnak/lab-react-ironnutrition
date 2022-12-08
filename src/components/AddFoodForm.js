@@ -1,7 +1,6 @@
 import { useState} from "react";
 import { Divider, Input} from 'antd';
 
-// Iteration 4
 function AddFoodForm(props) {
     const {addNewFood} = props
     const [name, setName] = useState("");
